@@ -176,9 +176,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     /* Switzerland */
-    const switzerland = document.getElementsByClassName('switzerland');
-    for (let i = 0; i < switzerland.length; i++) {
-        switzerland[i].src = "../assets/media/Flags/switzerland-flag-button-square-icon-32.png";
+    const swiss = document.getElementsByClassName('switzerland');
+    for (let i = 0; i < swiss.length; i++) {
+        swiss[i].src = "../assets/media/Flags/switzerland-flag-button-square-icon-32.png";
     }
 
 });
