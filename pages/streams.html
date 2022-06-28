@@ -67,39 +67,53 @@
          
        <!-- Twitch Channel Embedded-->
        <div class="row" align="center">
-            <h2>Squallne - Hunter POV (Raidlead)</h2>
+            <h2>Squallne - Hunter (Raidlead)</h2>
        <!-- Add a placeholder for the Twitch embed -->
         <div id="twitch-embed-squallne"></div>
         <br/>
  
        <!-- Twitch Channel Embedded-->
        <div class="row" align="center">
-            <h2>Andredegiant - Warrior POV</h2>
+            <h2>Andredegiant - Fury Warrior</h2>
        <!-- Add a placeholder for the Twitch embed -->
         <div id="twitch-embed-andredergiant"></div>
         <br/>
            
        <!-- Twitch Channel Embedded-->
        <div class="row" align="center">
-            <h2>Kontraos - Windfury POV</h2>
+            <h2>Kontraos - Enhancement Shaman</h2>
        <!-- Add a placeholder for the Twitch embed -->
         <div id="twitch-embed-kontraos"></div>
         <br/>
            
        <!-- Twitch Channel Embedded-->
        <div class="row" align="center">
-            <h2>Fluttershy - Paladin/Tank POV</h2>
+            <h2>Fluttershy - Protection Paladin</h2>
        <!-- Add a placeholder for the Twitch embed -->
         <div id="twitch-embed-miayu"></div>
         <br/>
            
        <!-- Twitch Channel Embedded-->
        <div class="row" align="center">
-            <h2>Sheffy - Elemental POV</h2>
+            <h2>Sheffy - Elemental Shaman</h2>
        <!-- Add a placeholder for the Twitch embed -->
         <div id="twitch-embed-sheffywow"></div>
         <br/>
-
+           
+       <!-- Twitch Channel Embedded-->
+       <div class="row" align="center">
+            <h2>Seliandra - Rogue</h2>
+       <!-- Add a placeholder for the Twitch embed -->
+        <div id="twitch-embed-seliandra"></div>
+        <br/>
+           
+       <!-- Twitch Channel Embedded-->
+       <div class="row" align="center">
+            <h2>Jeronimaa - Warlock</h2>
+       <!-- Add a placeholder for the Twitch embed -->
+        <div id="twitch-embed-jeronimaa"></div>
+        <br/>           
+           
        <!-- Load the Twitch embed script -->
        <script src="https://embed.twitch.tv/embed/v1.js"></script>
 
@@ -133,6 +147,18 @@
            width: "100%",
            height: 480,
            channel: "sheffywow",
+           muted: true
+         });
+         new Twitch.Embed("twitch-embed-seliandra", {
+           width: "100%",
+           height: 480,
+           channel: "seliandra",
+           muted: true
+         });
+         new Twitch.Embed("twitch-embed-jeronimaa", {
+           width: "100%",
+           height: 480,
+           channel: "jeronimaa",
            muted: true
          });
        </script>
