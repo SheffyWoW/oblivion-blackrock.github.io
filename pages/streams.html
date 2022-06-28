@@ -7,29 +7,12 @@
     <title>Oblivion</title>
 
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="../stylesheets/styles.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="javascripts/scale.fix.js"></script>
     <script src="javascripts/navigation.js"></script>
     <meta name="viewport" content="width=device-width">
     
-  <style>
-
-    /* Optional: The following css just makes sure the twitch video stays responsive */
-    #twitch {
-      position: relative;
-      padding-bottom: 56.25%; /* 16:9 */
-      padding-top: 25px;
-      height: 0;
-    }
-    #twitch object, #twitch iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-  </style>
 </head>
 
 <body class="flex-row reset-gutter">
@@ -93,6 +76,24 @@
             </div>
     </section>
 
+    <style>
+
+    /* Optional: The following css just makes sure the twitch video stays responsive */
+    #twitch {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 */
+      padding-top: 25px;
+      height: 0;
+    }
+    #twitch object, #twitch iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    </style>    
+    
   <script src= "https://player.twitch.tv/js/embed/v1.js"></script>
 
   <div id="twitch" class="hide">
