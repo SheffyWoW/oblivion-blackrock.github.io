@@ -285,7 +285,7 @@
     .raid-schedule li {
         display: flex;
         flex-direction: row;
-        max-width: 55%;
+        max-width: 40%;
         justify-content: space-between;
         margin-bottom: 5px;
     }
