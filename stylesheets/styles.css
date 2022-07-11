@@ -290,6 +290,14 @@
         margin-bottom: 5px;
     }
     
+    .boosting-prices li {
+        display: flex;
+        flex-direction: row;
+        max-width: 50%;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
     p.space {
         padding-top: 10px;
     }
