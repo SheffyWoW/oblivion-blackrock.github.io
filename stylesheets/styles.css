@@ -300,9 +300,9 @@
     .boosting-prices li {
         display: flex;
         flex-direction: row;
-        max-width: 50%;
+        max-width: 40%;
         justify-content: space-between;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 
     p.space {
