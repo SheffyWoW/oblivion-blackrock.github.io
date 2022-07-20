@@ -232,13 +232,6 @@
         opacity: 0.5;
         transition: 0.2s
     }
-    
-    img.icon:boosting {
-        width: 16px;
-        height: 16px;
-        opacity: 1.0;
-        vertical-align: top;
-    }
 
     img.icon:hover {
         opacity: 1.0;
