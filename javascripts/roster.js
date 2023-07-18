@@ -70,6 +70,12 @@ document.addEventListener("DOMContentLoaded", function () {
         rogues[i].src = "../assets/media/class-emblems/rogue_emblem.png";
     }
 
+    /* Evokers */
+    const evokers = document.getElementsByClassName('evoker');
+    for (let i = 0; i < evokers.length; i++) {
+        evokers[i].src = "../assets/media/class-emblems/evoker_emblem.png";
+    }
+    
     /* Demonhunters */
     const dhs = document.getElementsByClassName('dh');
     for (let i = 0; i < dhs.length; i++) {
