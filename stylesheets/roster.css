@@ -52,6 +52,7 @@ p {
 .warlock,
 .hunter,
 .dh,
+.evoker,
 .rogue {
     z-index: 2;
     text-shadow: 0 0 20px #1e232a;
@@ -100,6 +101,10 @@ p {
 
 .dh {
     color: #a330c9;
+}
+
+.evoker {
+    color: #33937F;
 }
 
 .rogue {
