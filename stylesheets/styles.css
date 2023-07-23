@@ -412,6 +412,12 @@
             font-size: 3.5vh;
         }
     }
+	
+	@media screen and (max-width: 768px) {
+		.boosting-prices li {
+			max-width: 100%;
+		}
+	}
     
     .rank-legendary {
         color: #FF8000;
