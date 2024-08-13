@@ -72,6 +72,92 @@
     </nav>
 
     <section class="main-content tier-row flex-row" id="kill-count-table">
+        <!-- Amirdrassil -->
+        <div class="raid-tier" onclick="toggleTier(this)">
+            <img src="../assets/media/Tiers/Amirdrassil.png" height="auto" width="100%">
+            <div class="flex-col tier-content">
+                <p class="tier-name">Amirdrassil, the Dream's Hope</p>
+                <p class="world-rank">61</p>
+                <i class="open-tier material-icons md-36 ">arrow_circle_down</i>
+                <i class="close-tier material-icons md-36 ">highlight_off</i>
+            </div>
+
+            <div class="tier-bosses">
+                <div id="boss-container" class="flex-col">
+                    <p>Fyrakk the Blazing</p>
+                    <p class="world-rank">61</p>
+                    <div class="flex-row bottom-row">
+                        <p class="subtitle">Wipes: 334</p>
+                        <p class="subtitle">Jan 04, 2024</p>
+                    </div>
+                </div>
+                <div id="boss-container" class="flex-col">
+                    <p>Tindral Sageswift, Seer of the Flame</p>
+                    <p class="world-rank">76</p>
+                    <div class="flex-row bottom-row">
+                        <p class="subtitle">Wipes: 399</p>
+                        <p class="subtitle">Dec 18, 2023</p>
+                    </div>
+                </div>
+                <div id="boss-container" class="flex-col">
+                    <p>Smolderon</p>
+                    <p class="world-rank">52</p>
+                    <div class="flex-row bottom-row">
+                        <p class="subtitle">Wipes: 71</p>
+                        <p class="subtitle">Nov 27, 2023</p>
+                    </div>
+                </div>
+                <div id="boss-container" class="flex-col">
+                    <p>Larodar, Keeper of the Flame</p>
+                    <p class="world-rank">87</p>
+                    <div class="flex-row bottom-row">
+                        <p class="subtitle">Wipes: 12</p>
+                        <p class="subtitle">Nov 23, 2023</p>
+                    </div>
+                </div>
+                <div id="boss-container" class="flex-col">
+                    <p>Nymue, Weaver of the Cycle</p>
+                    <p class="world-rank">114</p>
+                    <div class="flex-row bottom-row">
+                        <p class="subtitle">Wipes: 26</p>
+                        <p class="subtitle">Nov 23, 2023</p>
+                    </div>
+                </div>
+                <div id="boss-container" class="flex-col">
+                    <p>Council of Dreams</p>
+                    <p class="world-rank">90</p>
+                    <div class="flex-row bottom-row">
+                        <p class="subtitle">Wipes: 14</p>
+                        <p class="subtitle">Nov 20, 2023</p>
+                    </div>
+                </div>
+                <div id="boss-container" class="flex-col">
+                    <p>Volcoross</p>
+                    <p class="world-rank">90</p>
+                    <div class="flex-row bottom-row">
+                        <p class="subtitle">Wipes: 2</p>
+                        <p class="subtitle">Nov 19, 2023</p>
+                    </div>
+                </div>
+                <div id="boss-container" class="flex-col">
+                    <p>Igira the Cruel</p>
+                    <p class="world-rank">129</p>
+                    <div class="flex-row bottom-row">
+                        <p class="subtitle">Wipes: 6</p>
+                        <p class="subtitle">Nov 19, 2023</p>
+                    </div>
+                </div>
+                <div id="boss-container" class="flex-col">
+                    <p>Gnarlroot</p>
+                    <p class="world-rank">241</p>
+                    <div class="flex-row bottom-row">
+                        <p class="subtitle">Wipes: 0</p>
+                        <p class="subtitle">Nov 19, 2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <!-- Aberrus -->
         <div class="raid-tier" onclick="toggleTier(this)">
             <img src="../assets/media/Tiers/Aberrus.png" height="auto" width="100%">
@@ -897,7 +983,6 @@
                         <p class="subtitle">Jan 30, 2019</p>
                     </div>
                 </div>
-
             </div>
         </div>
 
@@ -987,7 +1072,6 @@
                         <p class="subtitle">Sep 12, 2018</p>
                     </div>
                 </div>
-
             </div>
         </div>
 
@@ -1103,7 +1187,6 @@
                         <p class="subtitle">Dec 06, 2017</p>
                     </div>
                 </div>
-
             </div>
         </div>
 
@@ -1198,7 +1281,6 @@
                         <p class="subtitle">Jun 28, 2017</p>
                     </div>
                 </div>
-
             </div>
         </div>
 
@@ -1338,7 +1420,6 @@
                         <p class="subtitle">Nov 20, 2016</p>
                     </div>
                 </div>
-
             </div>
         </div>
 
@@ -1410,7 +1491,6 @@
                         <p class="subtitle">Sep 28, 2016</p>
                     </div>
                 </div>
-
             </div>
         </div>
 
@@ -1543,7 +1623,6 @@
                         <p class="subtitle">Jul 2, 2015</p>
                     </div>
                 </div>
-
             </div>
         </div>
 
@@ -1647,82 +1726,8 @@
                         <p class="subtitle">Feb 11, 2015</p>
                     </div>
                 </div>
-
             </div>
         </div>
-
-        <!-- Highmaul -->
-        <div class="raid-tier" onclick="toggleTier(this)">
-            <img src="../assets/media/Tiers/HM.png" height="auto" width="100%">
-            <div class="flex-col tier-content">
-                <p class="tier-name">Highmaul</p>
-                <p class="world-rank">-</p>
-                <i class="open-tier material-icons md-36 ">arrow_circle_down</i>
-                <i class="close-tier material-icons md-36 ">highlight_off</i>
-            </div>
-
-            <div class="tier-bosses">
-                <div id="boss-container" class="flex-col">
-                    <p>Imperator Mar'gok</p>
-                    <a href="https://www.youtube.com/watch?v=UvPMvSRTVyI" target="_blank" class="video-link" onclick="event.stopPropagation()"><i class="material-icons md-24" data-tooltip="Kill video" data-position="bottom">open_in_new</i><span class="tooltiptext">Show video</span></a>
-                    <p class="world-rank">-</p>
-                    <div class="flex-row bottom-row">
-                        <p class="subtitle">Wipes: -</p>
-                        <p class="subtitle">Jan 22, 2015</p>
-                    </div>
-                </div>
-                <div id="boss-container" class="flex-col">
-                    <p>The Butcher</p>
-                    <p class="world-rank">-</p>
-                    <div class="flex-row bottom-row">
-                        <p class="subtitle">Wipes: -</p>
-                        <p class="subtitle">Jan 04, 2015</p>
-                    </div>
-                </div>
-                <div id="boss-container" class="flex-col">
-                    <p>Ko'ragh</p>
-                    <p class="world-rank">-</p>
-                    <div class="flex-row bottom-row">
-                        <p class="subtitle">Wipes: -</p>
-                        <p class="subtitle">Jan 04, 2015</p>
-                    </div>
-                </div>
-                <div id="boss-container" class="flex-col">
-                    <p>Tectus</p>
-                    <p class="world-rank">-</p>
-                    <div class="flex-row bottom-row">
-                        <p class="subtitle">Wipes: -</p>
-                        <p class="subtitle">Dec 22, 2014</p>
-                    </div>
-                </div>
-                <div id="boss-container" class="flex-col">
-                    <p>Brackenspore</p>
-                    <p class="world-rank">-</p>
-                    <div class="flex-row bottom-row">
-                        <p class="subtitle">Wipes: -</p>
-                        <p class="subtitle">Dec 17, 2014</p>
-                    </div>
-                </div>
-                <div id="boss-container" class="flex-col">
-                    <p>Twin Ogron</p>
-                    <p class="world-rank">-</p>
-                    <div class="flex-row bottom-row">
-                        <p class="subtitle">Wipes: -</p>
-                        <p class="subtitle">Dec 11, 2014</p>
-                    </div>
-                </div>
-                <div id="boss-container" class="flex-col">
-                    <p>Kargath Bladefist</p>
-                    <p class="world-rank">-</p>
-                    <div class="flex-row bottom-row">
-                        <p class="subtitle">Wipes: -</p>
-                        <p class="subtitle">Dec 10, 2014</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
     </section>
 </body>
 
